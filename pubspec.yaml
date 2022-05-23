@@ -1,7 +1,7 @@
 name: turbo_jpeg_ffi
-description: A new flutter plugin project.
+description: Raw bindings for the TurboJPEG api of libjpeg-turbo.
 version: 0.0.1
-homepage:
+homepage: https://github.com/miDeb/turbo_jpeg_ffi
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -27,7 +27,7 @@ ffigen:
     entry-points:
       - ios/libjpeg-turbo/turbojpeg.h
   name: "TurboJpegFFI"
-  description: Raw bindings to the TurboJpeg API of libjpeg-turbo"
+  description: Raw bindings to the TurboJpeg API of libjpeg-turbo
   preamble: |
     // ignore_for_file: camel_case_types, non_constant_identifier_names, constant_identifier_names
 
